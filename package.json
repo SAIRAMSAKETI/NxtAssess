@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "export NODE_OPTIONS=\"--max-old-space-size=4096\" && vite",
-    "build": "export NODE_OPTIONS=\"--max-old-space-size=4096\" && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "test": "vitest --run"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "test": "vitest --run"
+},
   "dependencies": {
     "date-fns": "^4.1.0",
     "js-cookie": "^3.0.5",

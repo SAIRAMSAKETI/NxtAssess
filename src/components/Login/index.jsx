@@ -3,7 +3,9 @@ import Cookies from 'js-cookie'
 import {useNavigate} from 'react-router-dom'
 import './index.css'
 
-const LOGIN_API_URL = 'https://apis.ccbp.in/login'
+// const LOGIN_API_URL = 'https://apis.ccbp.in/login'
+
+const LOGIN_API_URL = '/api/login'
 
 const Login = () => {
   const navigate = useNavigate()
