@@ -1,0 +1,16 @@
+import React from 'react'
+import Cookies from 'js-cookie'
+import {Navigate, useLocation} from 'react-router-dom'
+
+const ProtectedRoute = ({children}) => {
+  const location = useLocation()
+  const token = Cookies.get('jwt_token')
+
+  if (!token) {
+    return <Navigate to="/login" replace state={{from: location.pathname}} />
+  }
+
+  return children
+}
+
+export default ProtectedRoute

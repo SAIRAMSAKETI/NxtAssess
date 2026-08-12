@@ -1,0 +1,21 @@
+.question-number {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  color: #475569;
+  font-weight: 700;
+}
+
+.question-number.answered {
+  background: #dcfce7;
+  border-color: #86efac;
+  color: #166534;
+}
+
+.question-number.active {
+  background: #2638a0;
+  border-color: #2638a0;
+  color: #fff;
+}

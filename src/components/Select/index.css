@@ -1,0 +1,20 @@
+.select-options {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.select-options label {
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.select-options select {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #fff;
+  color: #334155;
+}

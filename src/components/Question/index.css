@@ -1,0 +1,32 @@
+.question-card {
+  padding: 24px 0 8px;
+}
+
+.question-count {
+  margin: 0 0 7px;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.question-text {
+  margin: 0 0 25px;
+  font-size: clamp(20px, 3vw, 28px);
+  line-height: 1.35;
+}
+
+.default-options {
+  display: grid;
+  gap: 12px;
+}
+
+.image-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 600px) {
+  .image-options {
+    grid-template-columns: 1fr;
+  }
+}
