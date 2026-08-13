@@ -37,7 +37,7 @@ const Home = () => (
         </div>
 
         <img
-          src="https://assets.ccbp.in/frontend/react-js/nxt-assess-home-img.png"
+          src="/assessment.png"
           alt="assessment"
           className="assessment-image"
         />

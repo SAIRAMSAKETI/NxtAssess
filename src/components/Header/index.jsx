@@ -16,7 +16,7 @@ const Header = () => {
       <div className="header-inner">
         <Link to="/" className="logo-link">
           <img
-            src="https://assets.ccbp.in/frontend/react-js/nxt-assess-logo.png"
+             src="/logo.png"
             alt="website logo"
             className="header-logo"
           />

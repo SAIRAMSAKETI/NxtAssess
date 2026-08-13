@@ -43,8 +43,9 @@ const Results = () => {
           {isTimeUp ? (
             <>
               <img
-                src="https://assets.ccbp.in/frontend/react-js/nxt-assess-time-up.png"
+                src="/submit.png"
                 alt="time up"
+                className="submit-image"
               />
 
               <h1>Time is up!</h1>
@@ -54,8 +55,9 @@ const Results = () => {
           ) : (
             <>
               <img
-                src="https://assets.ccbp.in/frontend/react-js/nxt-assess-submit.png"
+                src="/submit.png"
                 alt="submit"
+                className="submit-image"
               />
 
               <h1>Congrats! You completed the assessment</h1>
