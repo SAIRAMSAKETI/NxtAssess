@@ -64,13 +64,14 @@ const Login = () => {
     }
   }
 
-  return (
-    <div className="page login-page">
-      <div className="login-container">
-        <img
-          src="https://assets.ccbp.in/frontend/react-js/nxt-assess-login-img.png"
-          alt="login website logo"
-        />
+ return (
+  <div className="page login-page">
+    <div className="login-container">
+      <img
+        src="/logo.png"
+        alt="login website logo"
+        className="login-logo"
+      />
 
         <h1>Login</h1>
 
