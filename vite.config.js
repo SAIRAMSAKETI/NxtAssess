@@ -40,7 +40,7 @@ export default defineConfig({
   },
 
   build: {
-    outDir: 'build',
+    outDir: 'disk',
   },
 
   plugins: [react()],
